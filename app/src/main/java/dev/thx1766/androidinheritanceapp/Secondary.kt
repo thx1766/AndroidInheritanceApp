@@ -2,7 +2,7 @@ package dev.thx1766.androidinheritanceapp
 
 //derived class of BaseClass
 // Inherits from BaseClass
-class Secondary : BaseClass() {
+open class Secondary : BaseClass() {
 
     override fun role(){
         //super.role()
